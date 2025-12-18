@@ -4,7 +4,7 @@ export default function Feature({
     style={},}) 
     {
     return (
-        <div className={`container-fluid bg-primary overflow-hidden ${className}`} style={style}>
+        <div className={`container-fluid bg-primary overflow-hidden ${className} px-lg-0`} style={style}>
         <div className="container feature px-lg-0">
             <div className="row g-0 mx-lg-0">
                 <div className="col-lg-6 py-5 wow feature-text fadeIn" data-wow-delay="0.1s">
